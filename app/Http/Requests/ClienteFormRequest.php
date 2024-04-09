@@ -22,7 +22,11 @@ class ClienteFormRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            'nome' => 'required|max:220|min:4',
+            'telefone' => 'required|max:220|min:4',
+            'endereco' => 'required|max:220|min:4',
+            'email' => 'required|max:220|min:4',
+            'password' => 'required|max:220|min:4',
         ];
     }
 }
