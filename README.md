@@ -1,3 +1,42 @@
+1. Clone este repositório para o seu ambiente de desenvolvimento local utilizando o comando:
+```
+ git clone https://github.com/jujulilia/topBurger.git
+```
+2. Acesse o diretório do projeto:
+```
+cd topBurger
+```
+3. Inicializando o Repositorio
+```
+composer update
+```
+4. Copiando o .env do exemplo
+```
+copy .env.example .env
+```
+5. Nome e E-mail
+```
+git config  --global user.name "jujulilia"
+git config --global user.email "jujuscosta07@gmail.com"
+```
+6. Acessar o Visual Studio Code
+```
+code .
+```
+7. Comando
+```
+php artisan migrate
+```
+8. Abrir servidor
+```
+php artisan serve
+```
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
