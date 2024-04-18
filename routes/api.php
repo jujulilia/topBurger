@@ -11,3 +11,4 @@ Route::post('/produtos', [ProdutoController::class, 'store']);
 
 Route::get('/clientes',[ClienteController::class, 'index']);
 Route::post('/clientes', [ClienteController::class, 'store']);
+
